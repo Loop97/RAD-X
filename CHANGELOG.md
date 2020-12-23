@@ -1,0 +1,154 @@
+## 1.2.0 (August 03, 2020)
+
+- Merge pull request #33 from Nntsyeo/RAD-0022
+- [RAD-0022] changed the secondary color
+- [RAD-0022] Black
+- [RAD-0022] Fix "u" and map
+- [RAD-0022] Fixed long init on graph
+- Removed dark theme final
+- Remove Dark Theme
+- Removed Dark Theme and Added Color Theme
+- Fixed overflow issues
+- Added Building Level Input
+- update Battery Status persecond
+- Completed All indicators and alert, Current issue, Page takes long tiem for performance setup
+- Added Location and Weather in data display page, Successfully sends to Firebase firestore too
+- Merge pull request #32 from Nntsyeo/RAD-0035
+- Completed Verification and Navigation between Sign up and Sign In and HomePage
+- Login logic reworked, added reverify email and reset password
+- worked on logic flow
+- added Verifier and email can always be sent. Image changes to EIC logo. Currently verification takes forever
+- working on verification token"
+- email verifier added
+- Merge pull request #31 from Nntsyeo/RAD-0016
+- Disabled the underline function for the content
+- Added the url link to the website and the email
+- Updated the information on educational page
+- Added scrollable feature on education page
+- Added Titles for Education Page
+- Merge pull request #30 from Nntsyeo/RAD-0048
+- [RAD-0048] Accomodate new data entry
+- Merge pull request #28 from Nntsyeo/RAD-0045
+- [RAD-0045] Finalized responsive ui
+- Initial responsive ui
+- [RAD-0045] testing
+- [RAD-0045] Initial implementation of responsive UI
+- Merge branch 'release-1.1.0+7' into develop
+- Bumped version number to 0.2.0
+
+## 0.2.0 (July 30, 2020)
+
+## 0.1.0 (July 30, 2020)
+
+- Merge pull request #27 from Nntsyeo/RAD-0006
+- [RAD-0006] removed unused dependencies
+- [RAD-0006] Fixed datadisplaypage double write
+- [RAD-0006] Initial historical page done
+- [RAD-0006] Initial template + lock orient
+- Merge pull request #26 from Nntsyeo/RAD-0044
+- [RAD-0044] Optimised google map reads
+- Merge pull request #25 from Nntsyeo/RAD-0041
+- [RAD-0041] Fix huge read on get last data
+- add images
+- Update Pod file
+- Merge pull request #24 from Nntsyeo/RAD-0005
+- [RAD-0005] changed to serverandcache
+- [RAD-0005] Initial Google Map Ui
+- [RAD-0005] Trying to incorporate sqflite
+- [RAD-0005] Found out why circles not update
+- [RAD-0005] Added initial color point and slider
+- [RAD-0005] Initial added cloud data retrieval
+- Merge pull request #23 from Nntsyeo/RAD-0038
+- [RAD-0038] Added placeinfo and updated color
+- fixed forced location service on login & infoplist
+- Merge pull request #22 from Nntsyeo/ESP-0011
+- Changed the battery indicator from float to int
+- [ESP-0011] Fixed battery level detection
+- modified by sean with jing zhi
+- Merge commit 'e42166d08a87c1694bb922013eacf30edab08ce9' into ESP-0011
+- added battery filtering feature
+- updated eeprom and pwm-varying features
+- added eeprom to store pwm.dutycycle
+- modified for varying PWM duty cycle during operation
+- added battery filtering feature
+- Merge pull request #21 from Nntsyeo/RAD-0031
+- [RAD-0031] Fixed bad element data creation issue
+- [RAD-0031] Fixed cps not clip to 0 when disconnect
+- [RAD-0031] Fixes user collection
+- [RAD-0031] Adjusted database structure
+- [RAD-0031] Fixed singlechild and other bugs
+- Removed uSv/s and CPS, added battery voltage indicator and added feature to ignore double tap from user
+- Added Cache and sub field in collection, ID is now consistent and continues from previous state
+- UI modification and fixes for record button, scroll view and overflow fixes
+- Fixed id reinstate when record state resume after pause
+- id only increases when Record button in active state
+- Restructured Cloud FireStore and id sequencing
+- Merge pull request #19 from Nntsyeo/RAD-0023
+- [RAD-0023] Fixed builds conflict & android bug
+- [RAD-0023] Realtime graph, fixes visual bug
+- [RAD-0023] Inital realtime graph
+- [RAD-0023] Weird bluetooth bug
+- [RAD-0023] Refactor code
+- [RAD-0023] Initial graph plot visualizer
+- Merge pull request #18 from Nntsyeo/RAD-0032
+- [RAD-0032] Added bluetooth device unlink feature
+- Merge pull request #17 from Nntsyeo/RAD-0021
+- [RAD-0021] Finalized feature, fixed login bug
+- Merge pull request #16 from Nntsyeo/RAD-0002
+- Record only toggle every 60 seconds
+- Readjust Timer and include Timeout timer
+- Reset uSv accumalator
+- Reset Acuumalting cpm
+- Replaced Timer
+- Fixed bugs for UI on Data Display Page and CPS parsing ? bug
+- Added indicators and uSv/min and CPM windows
+- [RAD-0002] Rebased this branch by fresh start
+- Merge pull request #15 from Nntsyeo/ESP-0000
+- modified for RGB status and duration
+- Merge pull request #14 from Nntsyeo/RAD-0000
+- [RAD-0000] Finalized changes on map and login
+- [RAD-0000] Fixed login issue and revamp map
+- [RAD-0000] Added Maps spp for IOS
+- [RAD-0000] Added Gmap APIKEY
+- [RAD-0000] Resolved conflict, Gmaps
+- Merge pull request #13 from Nntsyeo/RAD-0004
+- tested for deployment (success)
+- Merge pull request #12 from Nntsyeo/RAD-0008
+- Deleted the original icon for ios
+- Merge pull request #11 from Nntsyeo/revert-10-RAD-0002
+- Revert "Redirected X Code Build & Redesigned BLE pg"
+- Merge pull request #10 from Nntsyeo/RAD-0002
+- Redirected X Code Build & Redesigned BLE pg
+- Merge pull request #8 from Nntsyeo/RAD-0001
+- Added the name to the app
+- Added Icon for the app
+- [RAD-0001] Added general education page route
+- Merge pull request #6 from Nntsyeo/RAD-0007
+- Merge pull request #7 from Nntsyeo/RAD-0009
+- [RAD-0007] Refactor code
+- [RAD-0007] Fixed wrong align of icon in Android
+- [RAD-0009] Fixed the login issue on android
+- Merge pull request #5 from Nntsyeo/ESP-0000
+- not sure why this happens...
+- Added a TODO
+- Merge pull request #4 from Nntsyeo/code_merge4
+- Merged Education Page
+- Merge pull request #2 from Nntsyeo/code_merge
+- google map merge
+- merge test 1
+- Removed phone sign up method
+- trying database file
+- modified to ignore .DS_Store macOS file
+- deleting sean_tryout_01 branch
+- Merge branch 'master' of https://github.com/Nntsyeo/Rad-X-new-
+- modified to test out sourcetree on master branch
+- modified for sourcetree tryout
+- Update README.md
+- Tracks user location upon signing in
+- Tracks user location upon signing in
+- havent modified anything
+- for mac
+- added code to fit all screens
+- Added app code that consists of only Login, Home and Bluetooth Page
+- newly added by Sean
+- Initial commit
